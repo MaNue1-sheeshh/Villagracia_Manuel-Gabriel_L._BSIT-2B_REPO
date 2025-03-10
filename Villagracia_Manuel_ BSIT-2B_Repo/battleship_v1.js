@@ -26,17 +26,17 @@ while (isSunk ==false) {
                 alert("ouch ang sakit napatumba mo ako!")
 
              }else{
-                alert("Hala tinamaan mo Puso ko")
+                alert("Hit!")
              }
 
             } else{
-            alert("Libat")
+            alert("Miss")
         }
 
     }
 
 }
 
-var stats = "Napatumba Mo Ang aking Barko sa " + guesses + " guesses" + " and your Accuracy is " + (3/guesses);
+var stats = "You Sunk my ship with " + guesses + " guesses" + " and your Accuracy is " + (3/guesses);
 
 alert(stats);
